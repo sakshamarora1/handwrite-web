@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e0aaae6acd27373c0cac",
+    "revision": "96fb426488bc4aab3371",
     "url": "/handwrite-web/static/css/main.87b2c8de.chunk.css"
   },
   {
-    "revision": "e0aaae6acd27373c0cac",
-    "url": "/handwrite-web/static/js/main.a9b1b8e9.chunk.js"
+    "revision": "96fb426488bc4aab3371",
+    "url": "/handwrite-web/static/js/main.dae5ef65.chunk.js"
   },
   {
     "revision": "eed8945052c3d544c1f9",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/handwrite-web/static/media/logo.54b0d79c.svg"
   },
   {
-    "revision": "3bbe02075c077ce32b41d1e75002f21e",
+    "revision": "1a42a224af5f859d81cbfad5463cce56",
     "url": "/handwrite-web/index.html"
   }
 ];
