@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/handwrite-web/static/media/logo.54b0d79c.svg"
   },
   {
-    "revision": "1a42a224af5f859d81cbfad5463cce56",
+    "revision": "697652df9567cf501941b1ee0f848a72",
     "url": "/handwrite-web/index.html"
   }
 ];
