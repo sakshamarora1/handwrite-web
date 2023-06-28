@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/handwrite-web/precache-manifest.90dfb4f36b8911dbbed9a46da35b16d0.js"
+  "https://builtree.github.io/handwrite-web/precache-manifest.cf14694e6ee1312e1ef7c7f84816b29f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/handwrite-web/index.html", {
+workbox.routing.registerNavigationRoute("https://builtree.github.io/handwrite-web/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
