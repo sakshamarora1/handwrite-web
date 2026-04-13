@@ -1,4 +1,4 @@
-import logo from './assets/logo.svg';
+// import logo from './assets/logo.svg';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
@@ -74,7 +74,7 @@ const About = () => {
 function Handwrite() {
   return (
     <div className="handwrite" id="home">
-      <img src={logo} alt="handwrite logo" className="Handwrite-Logo" />
+      <img src="https://raw.githubusercontent.com/builtree/assets/handwrite/logo.svg" alt="handwrite logo" className="Handwrite-Logo" />
       <Navbar />
       <Home />
       <br/>
