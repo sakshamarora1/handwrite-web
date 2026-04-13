@@ -1,6 +1,6 @@
 import logo from './assets/logo.svg';
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
 import Navbar from './Navbar';
 import Home from './Home.js';

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { API } from './config.js'
 import { useDropzone } from 'react-dropzone';
 import { CloudUploadOutlined } from '@material-ui/icons';
@@ -22,6 +22,11 @@ function Home(props) {
   }
 
   var error = useRef("");
+
+  // Wake up the server
+  useEffect(() => {
+    fetch(API + "/", { method: "HEAD" }).catch(() => {});
+  }, []);
 
   function validateImage(image) {
     var allowedTypes = ['jpeg', 'jpg', 'png'];
