@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "https://builtree.github.io/handwrite-web/static/css/main.7e50430a.css",
-    "main.js": "https://builtree.github.io/handwrite-web/static/js/main.e180ce13.js",
-    "static/media/logo.svg": "https://builtree.github.io/handwrite-web/static/media/logo.c4227721592e299f9979a4a0d2be8620.svg",
+    "main.js": "https://builtree.github.io/handwrite-web/static/js/main.bb507b5c.js",
     "index.html": "https://builtree.github.io/handwrite-web/index.html",
     "main.7e50430a.css.map": "https://builtree.github.io/handwrite-web/static/css/main.7e50430a.css.map",
-    "main.e180ce13.js.map": "https://builtree.github.io/handwrite-web/static/js/main.e180ce13.js.map"
+    "main.bb507b5c.js.map": "https://builtree.github.io/handwrite-web/static/js/main.bb507b5c.js.map"
   },
   "entrypoints": [
     "static/css/main.7e50430a.css",
-    "static/js/main.e180ce13.js"
+    "static/js/main.bb507b5c.js"
   ]
 }
