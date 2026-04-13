@@ -1,16 +1,14 @@
 {
-  "main.css": "https://builtree.github.io/handwrite-web/static/css/main.fe4f7003.chunk.css",
-  "main.js": "https://builtree.github.io/handwrite-web/static/js/main.d2663a30.chunk.js",
-  "main.js.map": "https://builtree.github.io/handwrite-web/static/js/main.d2663a30.chunk.js.map",
-  "runtime~main.js": "https://builtree.github.io/handwrite-web/static/js/runtime~main.f6f3cfba.js",
-  "runtime~main.js.map": "https://builtree.github.io/handwrite-web/static/js/runtime~main.f6f3cfba.js.map",
-  "static/css/2.4a676243.chunk.css": "https://builtree.github.io/handwrite-web/static/css/2.4a676243.chunk.css",
-  "static/js/2.34f2686d.chunk.js": "https://builtree.github.io/handwrite-web/static/js/2.34f2686d.chunk.js",
-  "static/js/2.34f2686d.chunk.js.map": "https://builtree.github.io/handwrite-web/static/js/2.34f2686d.chunk.js.map",
-  "index.html": "https://builtree.github.io/handwrite-web/index.html",
-  "precache-manifest.49b46a77e56593e2c8ca72f224ea0ee1.js": "https://builtree.github.io/handwrite-web/precache-manifest.49b46a77e56593e2c8ca72f224ea0ee1.js",
-  "service-worker.js": "https://builtree.github.io/handwrite-web/service-worker.js",
-  "static/css/2.4a676243.chunk.css.map": "https://builtree.github.io/handwrite-web/static/css/2.4a676243.chunk.css.map",
-  "static/css/main.fe4f7003.chunk.css.map": "https://builtree.github.io/handwrite-web/static/css/main.fe4f7003.chunk.css.map",
-  "static/media/logo.svg": "https://builtree.github.io/handwrite-web/static/media/logo.54b0d79c.svg"
+  "files": {
+    "main.css": "https://builtree.github.io/handwrite-web/static/css/main.7e50430a.css",
+    "main.js": "https://builtree.github.io/handwrite-web/static/js/main.e180ce13.js",
+    "static/media/logo.svg": "https://builtree.github.io/handwrite-web/static/media/logo.c4227721592e299f9979a4a0d2be8620.svg",
+    "index.html": "https://builtree.github.io/handwrite-web/index.html",
+    "main.7e50430a.css.map": "https://builtree.github.io/handwrite-web/static/css/main.7e50430a.css.map",
+    "main.e180ce13.js.map": "https://builtree.github.io/handwrite-web/static/js/main.e180ce13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e50430a.css",
+    "static/js/main.e180ce13.js"
+  ]
 }
