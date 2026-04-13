@@ -72,9 +72,9 @@ function Home(props) {
       return
     }
     let formData = new FormData();
-    var researchOption = document.getElementById("researchOption").checked;
+    // var researchOption = document.getElementById("researchOption").checked;
     formData.append("image", image[1]);
-    formData.append("research", researchOption);
+    formData.append("research", "false");
     var response;
     var status;
     var stat = -1;
@@ -198,12 +198,12 @@ function Home(props) {
                 CREATE FONT
               </Button>
               <br /><br />
-              <div className="form-check">
+              {/* <div className="form-check">
                 <input className="form-check-input" type="checkbox" id="researchOption" defaultChecked></input>
                 <label className="form-check-label" htmlFor="flexCheckChecked">
                   Opt-in for research use.
                 </label>
-              </div>
+              </div> */}
               <br /><br />
               <Button variant="outlined" href={font} download="font.ttf" style={{ display: Boolean(font) ? "" : "none" }}>Download your font</Button>
             </div>

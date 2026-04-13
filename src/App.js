@@ -19,6 +19,7 @@ const HowToUse = () => {
             <li> Fill the form using the reference image.</li> <br />
             <li> Scan the filled form using a scanner, or any scanning application on your phone.</li> <br />
             <li> Save the scan in JPEG format.</li> <br />
+            <li> (For playing around, alternatively) you can download the <a href='https://raw.githubusercontent.com/builtree/assets/handwrite/handwrite_filled_form.jpg'>reference image</a>.</li> <br />
           </ol>
           <br /> <br />
           <h2>Creating your font</h2>
@@ -57,16 +58,13 @@ const About = () => {
       <div><br />Handwriting stuff is a struggle, it’s tiring, time consuming and inconsistent but still is a requirement for so many assignments, tests etc. We, as developers, love to type on our keyboard far more than writing and it’s practical, isn’t it? 
       So we decided to build something that can help us type out our writing. Being experienced in Python and wanting to learn Image Processing, this was the perfect project, so we got started!
       </div>
-      <br /><br />
-      <h2>Want to Contribute?</h2>
-      <div><br />We &#9829; open-source! <br /> We look forward to your contributions! Don’t shy away if you are a beginner, we are happy to help you get started. <br /><br />
+      <br />
       <div className="about-list"><ul>
       The following repositories help handwrite work: <br/><br/>
-        <li><a href="https://github.com/builtree/handwrite">Handwrite:</a> Core Handwrite project build with Python. It also features a CLI interface for handwrite. (Python) <br/> You can get started with how core handwrite works <a href="https://builtree.github.io/handwrite/">here.</a></li><br />
+        <li><a href="https://github.com/builtree/handwrite">Handwrite:</a> Core Handwrite project build with Python. It also features a CLI interface for handwrite. (Python)</li><br />
         <li><a href="https://github.com/builtree/handwrite-web">Handwrite Web:</a> Frontend of handwrite web. (React)</li><br />
         <li><a href="https://github.com/builtree/handwrite-server">Handwrite Server:</a> Backend for handwrite, hosted on heroku. (Python, Flask)</li><br />
       </ul>
-      </div>
       </div>
     </div>
   );

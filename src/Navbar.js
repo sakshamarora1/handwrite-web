@@ -21,11 +21,11 @@ const Navbar = () => {
                 </div>
                 <div>
                     <a
-                        href="https://builtree.github.io/handwrite"
+                        href="https://github.com/builtree/handwrite"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button>Documentation</button>
+                        <button>GitHub</button>
                     </a>
                 </div>
             </div>
