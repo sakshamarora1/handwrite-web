@@ -45,6 +45,17 @@ const HowToUse = () => {
   );
 }
 
+const Context = () => (
+  <div className="page-context">
+    <p>
+      Upload a scan of the filled form and the frontend sends it to a Python backend that segments each character and builds an installable TrueType font.
+    </p>
+    <p>
+      Generation runs in the background while the UI tracks progress; when it completes you get a <code>.ttf</code> download. React, Flask, and OpenCV on the stack.
+    </p>
+  </div>
+);
+
 const About = () => {
   return (
     <div className="subsection" id="about">
@@ -77,13 +88,16 @@ function Handwrite() {
       <img src="https://raw.githubusercontent.com/builtree/assets/handwrite/logo.svg" alt="handwrite logo" className="Handwrite-Logo" />
       <Navbar />
       <Home />
-      <br/>
+      <Context />
       <About />
       <hr className="divider"/>
       <br />
       <HowToUse />
-      <div className="bottom-container">
-      </div>
+      <footer className="site-footer">
+        <a href="https://github.com/sakshamarora1">Saksham Arora</a>
+        <span className="footer-separator" aria-hidden="true">|</span>
+        <a href="https://github.com/yashlamba">Yash Lamba</a>
+      </footer>
     </div>
   );
 }
