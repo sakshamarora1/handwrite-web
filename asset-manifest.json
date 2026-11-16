@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://builtree.github.io/handwrite-web/static/css/main.7e50430a.css",
-    "main.js": "https://builtree.github.io/handwrite-web/static/js/main.bb507b5c.js",
-    "index.html": "https://builtree.github.io/handwrite-web/index.html",
-    "main.7e50430a.css.map": "https://builtree.github.io/handwrite-web/static/css/main.7e50430a.css.map",
-    "main.bb507b5c.js.map": "https://builtree.github.io/handwrite-web/static/js/main.bb507b5c.js.map"
+    "main.css": "https://sakshamarora1.github.io/handwrite-web/static/css/main.f4c80a6c.css",
+    "main.js": "https://sakshamarora1.github.io/handwrite-web/static/js/main.593c4d9d.js",
+    "index.html": "https://sakshamarora1.github.io/handwrite-web/index.html",
+    "main.f4c80a6c.css.map": "https://sakshamarora1.github.io/handwrite-web/static/css/main.f4c80a6c.css.map",
+    "main.593c4d9d.js.map": "https://sakshamarora1.github.io/handwrite-web/static/js/main.593c4d9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e50430a.css",
-    "static/js/main.bb507b5c.js"
+    "static/css/main.f4c80a6c.css",
+    "static/js/main.593c4d9d.js"
   ]
 }
