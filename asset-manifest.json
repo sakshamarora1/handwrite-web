@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://sakshamarora1.github.io/handwrite-web/static/css/main.f4c80a6c.css",
-    "main.js": "https://sakshamarora1.github.io/handwrite-web/static/js/main.593c4d9d.js",
+    "main.css": "https://sakshamarora1.github.io/handwrite-web/static/css/main.cb1b3732.css",
+    "main.js": "https://sakshamarora1.github.io/handwrite-web/static/js/main.54078445.js",
     "index.html": "https://sakshamarora1.github.io/handwrite-web/index.html",
-    "main.f4c80a6c.css.map": "https://sakshamarora1.github.io/handwrite-web/static/css/main.f4c80a6c.css.map",
-    "main.593c4d9d.js.map": "https://sakshamarora1.github.io/handwrite-web/static/js/main.593c4d9d.js.map"
+    "main.cb1b3732.css.map": "https://sakshamarora1.github.io/handwrite-web/static/css/main.cb1b3732.css.map",
+    "main.54078445.js.map": "https://sakshamarora1.github.io/handwrite-web/static/js/main.54078445.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4c80a6c.css",
-    "static/js/main.593c4d9d.js"
+    "static/css/main.cb1b3732.css",
+    "static/js/main.54078445.js"
   ]
 }
