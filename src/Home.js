@@ -198,7 +198,7 @@ function Home(props) {
                 </IconButton></h6></center> : ""}
             </div>
             <div className="submit-button">
-              <Button variant="outlined" href="https://github.com/builtree/handwrite/raw/dev/handwrite_sample.pdf">Download Sample Form</Button><br /><br />
+              <Button variant="outlined" href="https://github.com/sakshamarora1/handwrite/raw/dev/handwrite_sample.pdf">Download Sample Form</Button><br /><br />
               <Button type="submit" variant="outlined" disabled={loading() || currentState === 0}>
                 CREATE FONT
               </Button>

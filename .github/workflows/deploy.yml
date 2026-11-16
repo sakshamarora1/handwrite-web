@@ -1,4 +1,4 @@
-name: "Deploy"
+name: Deploy
 
 on: push
 
@@ -7,11 +7,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
 
-            - uses: actions/setup-node@v2
+            - uses: actions/setup-node@v4
               with:
-                  node-version: "16"
+                  node-version: "22"
 
             - name: Deploy Production
               if: github.ref == 'refs/heads/main'
@@ -23,7 +23,7 @@ jobs:
                   npm run deploy
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  PUBLIC_URL: "https://builtree.github.io/handwrite-web"
+                  PUBLIC_URL: "https://sakshamarora1.github.io/handwrite-web"
 
             - name: Deploy Development
               if: github.ref == 'refs/heads/dev'
@@ -36,4 +36,4 @@ jobs:
                   npm run deploydev
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  PUBLIC_URL: "https://builtree.github.io/handwrite-web/dev"
+                  PUBLIC_URL: "https://sakshamarora1.github.io/handwrite-web/dev"

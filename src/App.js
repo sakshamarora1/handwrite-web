@@ -15,7 +15,7 @@ const HowToUse = () => {
           <h2>Creating your Handwritten Sample</h2>
           <br />
           <ol type="1">
-            <li> Take a printout of the <a href='https://github.com/builtree/handwrite/raw/dev/handwrite_sample.pdf'>sample form</a>.</li> <br />
+            <li> Take a printout of the <a href='https://github.com/sakshamarora1/handwrite/raw/dev/handwrite_sample.pdf'>sample form</a>.</li> <br />
             <li> Fill the form using the reference image.</li> <br />
             <li> Scan the filled form using a scanner, or any scanning application on your phone.</li> <br />
             <li> Save the scan in JPEG format.</li> <br />
@@ -61,9 +61,9 @@ const About = () => {
       <br />
       <div className="about-list"><ul>
       The following repositories help handwrite work: <br/><br/>
-        <li><a href="https://github.com/builtree/handwrite">Handwrite:</a> Core Handwrite project build with Python. It also features a CLI interface for handwrite. (Python)</li><br />
-        <li><a href="https://github.com/builtree/handwrite-web">Handwrite Web:</a> Frontend of handwrite web. (React)</li><br />
-        <li><a href="https://github.com/builtree/handwrite-server">Handwrite Server:</a> Backend for handwrite, hosted on heroku. (Python, Flask)</li><br />
+        <li><a href="https://github.com/sakshamarora1/handwrite">Handwrite:</a> Core Handwrite project build with Python. It also features a CLI interface for handwrite. (Python)</li><br />
+        <li><a href="https://github.com/sakshamarora1/handwrite-web">Handwrite Web:</a> Frontend of handwrite web. (React)</li><br />
+        <li><a href="https://github.com/sakshamarora1/handwrite-server">Handwrite Server:</a> Backend for handwrite, hosted on heroku. (Python, Flask)</li><br />
       </ul>
       </div>
     </div>
